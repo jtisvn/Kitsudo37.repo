@@ -1,7 +1,7 @@
 {
 "class": "DepictionTabView",
-"headerImage": "https://k37ios.pages.dev/banner/LunartimeBar.png",
-"tintColor": "#B5B5B5",
+"headerImage": "https://k37ios.pages.dev/banner/banner.png",
+"tintColor": "#339999",
 "tabs": [
 {
 "tabname": "Giới thiệu",
@@ -16,7 +16,7 @@
 {
 "class": "DepictionTableButtonView",
 "openExternal": true,
-"title": "Kênh Telegram",
+"title": "Kênh thông báo",
 "action": "https://t.me/jtisvn"
 },
 {
@@ -24,12 +24,6 @@
 "openExternal": true,
 "title": "Nhóm Facebook",
 "action": "https://www.facebook.com/share/g/16wCy2KW8K/?mibextid=K35XfP"
-},
-{
-"class": "DepictionTableButtonView",
-"openExternal": true,
-"title": "Liên hệ Admin",
-"action": "https://t.me/Kitsudo"
 },
 {
 "spacing": 10,
@@ -59,7 +53,7 @@
 "title": "Thông tin"
 },
 {
-"text": "YangJiii",
+"text": "Kitsudo",
 "title": "Tác giả",
 "class": "DepictionTableTextView"
 },
@@ -93,6 +87,11 @@
 {
 "title": "Mô tả tinh chỉnh",
 "action": "https://k37ios.pages.dev/info/depictions/LunartimeBar.html",
+"class": "DepictionTableButtonView"
+},
+{
+"title": "Ủng hộ tôi",
+"action": "https://t.me/Kitsudo",
 "class": "DepictionTableButtonView"
 },
 {
