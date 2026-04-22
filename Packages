@@ -1,20 +1,35 @@
-Package: com.kitsudo.unlockboard
+Package: com.k37.lunartimebar
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: Kitsudo
+Installed-Size: 356
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), oldabi-stub
+Filename: ./debs/com.k37.lunartimebar_1.2_iphoneos-arm64.deb
+Size: 20200
+MD5sum: c6ddbcc94e30ba6cc21534273faaebad
+SHA1: b14202853505e948ba7ddd2f269972d7e761e383
+SHA256: 0fba45845cf91f9deb3b10f557a7cb080bb36cee77ef1c88bded52c8bbe3d3d5
+Section: Tweaks
+Description: Hiển thị thứ ngày âm dương lịch trên thanh trạng thái.
+Author: Kitsudo
+Icon: https://k37ios.pages.dev/assets/LunartimeBar.png
+Name: Lunartime Bar (Rootless)
+
+Package: com.k37.unlockboard
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: Kitsudo Repo
 Installed-Size: 1076
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Filename: ./debs/com.kitsudo.unlockboard_1.0_iphoneos-arm64.deb
-Size: 224308
-MD5sum: d85789a207be37196509d15f7e517277
-SHA1: 9da2ce366546480e36530e7fd3c4e1733b9f9ba9
-SHA256: 664c3a8deecec92ba44b90323a2f460d9a0a8b7e18bd2991bf5ff6c975f3f2d6
+Filename: ./debs/com.k37.unlockboard_1.0_iphoneos-arm64.deb
+Size: 224132
+MD5sum: c87540dc5d907894cbc7dd56d5633ca1
+SHA1: f8bfa082ab8fe4fc8cb53e82e592ed49fa8f68f7
+SHA256: 7f1903a1b20d15b1a1ff76ccfd983d5069e79bbe99f2393e50d26c3a7a58185c
 Section: Tweaks
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
 Author: Kitsudo
-Depiction: /var/mobile/KitsudoRepo/info/depiction/UnlockBoard.html
-Icon: /var/mobile/KitsudoRepo/icons/UnlockBoard.png
+Icon: https://k37ios.pages.dev/assets/UnlockBoard.png
 Name: UnlockBoard
-Sileodepiction: /var/mobile/KitsudoRepo/info/sileodepictions/UnlockBoard.json
 
