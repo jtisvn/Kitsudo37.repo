@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>UnlockBoard @ 2026 - Kitsudo</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.kitsudo.unlockboard/ReloadPrefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.kitsudo.unlockboard</string>
+			<key>footerText</key>
+			<string>Make Control Center modules more rounded.</string>
+			<key>key</key>
+			<string>enableRoundCC</string>
+			<key>label</key>
+			<string>Round Modules</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.kitsudo.unlockboard/ReloadPrefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.kitsudo.unlockboard</string>
+			<key>footerText</key>
+			<string>Disable Wi-Fi &amp; Bluetooth completely instead of disconnecting temporarily.</string>
+			<key>key</key>
+			<string>enableRealCC</string>
+			<key>label</key>
+			<string>Completely Turn Off Wi-Fi &amp; Bluetooth</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.kitsudo.unlockboard/ReloadPrefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.kitsudo.unlockboard</string>
+			<key>footerText</key>
+			<string>Show percentage values inside brightness and volume sliders.</string>
+			<key>key</key>
+			<string>showSliderPercentage</string>
+			<key>label</key>
+			<string>Show Percentage on Brightness &amp; Volume</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.kitsudo.unlockboard/ReloadPrefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.kitsudo.unlockboard</string>
+			<key>footerText</key>
+			<string>Customize background transparency. Slide to 0 for full transparency.</string>
+			<key>key</key>
+			<string>enableCCBackground</string>
+			<key>label</key>
+			<string>Enable Transparent Control Center Background</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.kitsudo.unlockboard/ReloadPrefs</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>1</real>
+			<key>defaults</key>
+			<string>com.kitsudo.unlockboard</string>
+			<key>isSegmented</key>
+			<false/>
+			<key>key</key>
+			<string>ccBackgroundAlpha</string>
+			<key>max</key>
+			<real>1</real>
+			<key>min</key>
+			<real>0.0</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Control Center</string>
+</dict>
+</plist>
