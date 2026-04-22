@@ -1,0 +1,20 @@
+Package: com.kitsudo.unlockboard
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Kitsudo Repo
+Installed-Size: 1076
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: ./debs/com.kitsudo.unlockboard_1.0_iphoneos-arm64.deb
+Size: 224308
+MD5sum: d85789a207be37196509d15f7e517277
+SHA1: 9da2ce366546480e36530e7fd3c4e1733b9f9ba9
+SHA256: 664c3a8deecec92ba44b90323a2f460d9a0a8b7e18bd2991bf5ff6c975f3f2d6
+Section: Tweaks
+Description: Customize SpringBoard with many useful features for iOS.
+  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
+Author: Kitsudo
+Depiction: /var/mobile/KitsudoRepo/info/depiction/UnlockBoard.html
+Icon: /var/mobile/KitsudoRepo/icons/UnlockBoard.png
+Name: UnlockBoard
+Sileodepiction: /var/mobile/KitsudoRepo/info/sileodepictions/UnlockBoard.json
+
