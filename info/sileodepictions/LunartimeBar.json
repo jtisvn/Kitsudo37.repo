@@ -32,7 +32,7 @@
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "Hiển thị lịch âm Dương trực tiếp trên thanh trạng thái.\n- Định dạng hiển thị gồm:\n- Thứ-ngày-tháng-năm Dương lịch\n- Ngày-tháng Âm lịch\n- Thứ-Ngày-tháng Âm/Dương lịch",
+"markdown": "Hiển thị lịch âm Dương trên thanh trạng thái.\n- Định dạng hiển thị gồm:\n- Thứ-ngày-tháng-năm Dương lịch\n- Ngày-tháng Âm lịch\n- Thứ-Ngày-tháng Âm/Dương lịch",
 "useSpacing": true
 },
 {
@@ -108,7 +108,7 @@
 {
 "class": "DepictionTableTextView",
 "title": "Tương thích",
-"text": "iOS 15.0 - 16.x"
+"text": "iOS 15.x - 16.7.x"
 },
 {
 "class": "DepictionSpacerView",
@@ -156,7 +156,7 @@
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "<div style='text-align: center; color: #888; font-size: 11px; margin-top: 5px;'>Được tạo bởi ❤️ K37 Repo </div>",
+"markdown": "<div style='text-align: center; color: #888; font-size: 11px; margin-top: 5px;'>Được tạo bởi ❤️ K37 Repo</div>",
 "useRawFormat": true
 },
 {
@@ -195,7 +195,7 @@
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "• Thêm tùy chỉnh vị trí và cỡ chữ\n- Thêm giao diện cài đặt",
+"markdown": "• Thêm tùy chỉnh vị trí và cỡ chữ\n• Thêm giao diện cài đặt",
 "useSpacing": true
 }
 ]

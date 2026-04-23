@@ -37,6 +37,24 @@ Icon: https://k37ios.pages.dev/assets/LunartimeBar.png
 Name: Lunartime Bar
 Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/LunartimeBar.json
 
+Package: com.squidforce.copyvault
+Version: 1.9.0
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce
+Installed-Size: 6304
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/com.squidforce.copyvault_1.9.0_iphoneos-arm64e.deb
+Size: 1668612
+MD5sum: 2fe4d67d5128bb86d0c905998a266b43
+SHA1: 328ae7dd80802d24d8952c50574317ec675b9d71
+SHA256: e1e12254775d92e969f0d973f08190ecb26c8867d1933695d55736335e48628b
+Section: Tweaks
+Description: Your Copy Vault, Your Pasteboard
+Author: SquidForce
+Icon: https://media.havoc.app/66424f2de151fb3d56c76edb
+Name: CopyVault
+
 Package: com.squidforce.squidextender
 Version: 3.7.4
 Architecture: iphoneos-arm64
