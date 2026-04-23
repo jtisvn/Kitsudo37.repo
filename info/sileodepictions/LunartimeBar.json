@@ -9,10 +9,6 @@
   "class": "DepictionStackView",
   "views": [
   {
-  "class": "DepictionHeaderView",
-  "title": "LunarTimeBar"
-  },
-  {
   "class": "DepictionSpacerView",
   "spacing": 12
   },
@@ -24,12 +20,11 @@
   },
   {
   "class": "DepictionSpacerView",
-  "spacing": 8
+  "spacing": 16
   },
   {
-  "class": "DepictionSubheaderView",
-  "title": "Tweak: LunarTimeBar",
-  "alignment": 1
+  "class": "DepictionHeaderView",
+  "title": "LunarTimeBar"
   },
   {
   "class": "DepictionSpacerView",
@@ -41,7 +36,7 @@
   "itemSize": "{160, 346}",
   "screenshots": [
   {
-  "url": "https://k37ios.pages.dev/master/info/Screenshots/LunartimeBar/1.png",
+  "url": "https://k37ios.pages.dev/info/Screenshots/LunartimeBar/1.png",
   "accessibilityText": "Screenshot"
   }
   ]
@@ -134,6 +129,10 @@
   "class": "DepictionMarkdownView",
   "markdown": "<div style='text-align: center; color: #888; font-size: 11px; margin-top: 5px;'>Created with ❤️ by K37 Repo </div>",
   "useRawFormat": true
+  },
+  {
+  "class": "DepictionSpacerView",
+  "spacing": 16
   }
   ]
   },
