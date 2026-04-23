@@ -32,7 +32,7 @@
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "Xem và gom nhóm thông báo trên màn hình khoá.\n- Chức năng:\n\n- Gom thông báo: Tự động nhóm tất cả thông báo trên màn hình khoá theo từng biểu tượng ứng dụng\n\+ Tương tác nhanh: Chạm vào biểu tượng để xem thông báo của ứng dụng đó, chạm lần nữa để thu gọn. Hoặc nhấn giữ để lọc (xoá) nhanh thông báo.\n+ Tuỳ chỉnh: Điều chỉnh vị trí và kiểu giao diện của các biểu tượng theo ý muốn",
+"markdown": "Xem và gom nhóm thông báo trên màn hình khoá.\n- Chức năng:\n\n- Gom thông báo: Tự động nhóm tất cả thông báo trên màn hình khoá theo từng biểu tượng ứng dụng\n- Tương tác nhanh: Chạm vào biểu tượng để xem thông báo của ứng dụng đó, chạm lần nữa để thu gọn. Hoặc nhấn giữ để lọc (xoá) nhanh thông báo.\n- Tuỳ chỉnh: Điều chỉnh vị trí và kiểu giao diện của các biểu tượng theo ý muốn",
 "useSpacing": true
 },
 {
@@ -128,7 +128,7 @@
 {
 "class": "DepictionTableButtonView",
 "title": "Xem mô tả",
-"action": "https://k37ios.pages.dev/info/depictions/LunartimeBar.html",
+"action": "https://k37ios.pages.dev/info/depictions/Axon.html",
 "openExternal": 1,
 "icon": "https://img.icons8.com/ios-filled/50/4facfe/document.png"
 },
@@ -160,7 +160,7 @@
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "<div style='text-align: center; color: #888; font-size: 11px; margin-top: 5px;'>Được tạo bởi ❤️ K37 Repo</div>",
+"markdown": "<div style='text-align: center; color: #888; font-size: 11px; margin-top: 5px;'>Được tạo bởi ❤️ K37 Repo </div>",
 "useRawFormat": true
 },
 {
