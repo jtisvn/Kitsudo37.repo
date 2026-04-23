@@ -58,6 +58,26 @@ Icon: https://k37ios.pages.dev/assets/BackgroundCaller.png
 Name: BackgroundCaller
 Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/BackgroundCaller.json
 
+Package: com.k37.backgroundcaller
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: K37 Repo
+Installed-Size: 556
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), oldabi
+Filename: ./debs/com.k37.backgroundcaller_1.0.0_iphoneos-arm64e.deb
+Size: 40424
+MD5sum: 53b5d046785ec7afa4bd35b4e6becacd
+SHA1: e6824bd2a1e87fda2a25c845d811ec55094fbe4f
+SHA256: c6d0722d4e8229bfe70aa6b9b7f6e6672ae14e5c65b8241c90a826c950f03ea1
+Section: Tweaks
+Description: Thêm hình nền video cuộc gọi đến
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/BackgroundCaller.html
+Icon: https://k37ios.pages.dev/assets/BackgroundCaller.png
+Name: BackgroundCaller
+Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/BackgroundCaller.json
+
 Package: com.k37.lunartimebar
 Version: 1.4
 Architecture: iphoneos-arm64
