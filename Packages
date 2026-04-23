@@ -1,22 +1,3 @@
-Package: com.foxfort.vizage
-Version: 1.0.2
-Architecture: iphoneos-arm64e
-Maintainer: FoxfortMobile
-Installed-Size: 36568
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.1), preferenceloader, com.foxfort.foxforttools (>= 1.4.8)
-Conflicts: me.krit.lockdown, org.mr.lockdown, com.hackyouriphone.lockdown, com.wxhbts.lockdown, com.trappledestek.lockdown, net.cadoth.fakepass, com.foxfort.checkl0ck
-Filename: ./debs/com.foxfort.vizage_1.0.2_iphoneos-arm64e.deb
-Size: 35091962
-MD5sum: 71216fab5700826e5b76bba7655f35a3
-SHA1: 05b8b484211a081777e687fd734e0307592ccbf3
-SHA256: 06a1458782a9ea3c62a606c288d3f7322d0457281a60fb353a41fdc4723473ce
-Section: Tweaks
-Description: Unlock your device with your face
-Author: FoxfortMobile
-Icon: file:///Library/PreferenceBundles/vizagesettings.bundle/icon@3x.png
-Name: Vizage
-
 Package: com.k37.lunartimebar
 Version: 1.2
 Architecture: iphoneos-arm64
