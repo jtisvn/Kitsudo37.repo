@@ -216,6 +216,28 @@ Icon: https://k37ios.pages.dev/assets/SafariBlocker.png
 Name: SafariBlocker
 Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/SafariBlocker.json
 
+Package: com.k37.safariblocker
+Version: 1.3.1-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: K37 Repo
+Installed-Size: 236
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: ./debs/com.k37.safariblocker_1.3.1-1+debug_iphoneos-arm64e.deb
+Size: 53130
+MD5sum: 5ef1a3ef2ca784324e32b0883b803bfa
+SHA1: 369d36497630c25178fceefb7ac2465bfd704c87
+SHA256: 804684518e78257530eeb52999ae2dbb23b45bb8b40bcb035ae1441f9cbb0b43
+Section: Tweaks
+Homepage: https://k37ios.pages.dev
+Description: Chặn các tab mới trong Safari bằng các tùy chọn nâng cao!
+Tag: role::enduser, purpose::enhancement
+Author: P2KDev & Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/SafariBlocker.html
+Icon: https://k37ios.pages.dev/assets/SafariBlocker.png
+Name: SafariBlocker
+Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/SafariBlocker.json
+
 Package: com.squidforce.copyvault
 Version: 1.9.0
 Architecture: iphoneos-arm64e

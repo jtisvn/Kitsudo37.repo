@@ -32,7 +32,7 @@
 },
 {
 "class": "DepictionMarkdownView",
-"markdown": "Chặn nhảy các tab hoặc cửa sổ mới tự mở trong Safari một cách chủ động.\n\nSafariBlocker giúp ngăn chặn các trang web tự động mở tab mới hay popup làm phiền khi duyệt web. Bạn có thể tuỳ chỉnh hành vi chặn trực tiếp trong phần Cài đặt.\n\n**Tính năng:**\n- Chặn tự động mở tab mới trong Safari.\n- Tuỳ chọn cho phép hoặc chặn popup theo ý muốn.\n- Gọn nhẹ, không làm chậm khi duyệt web.\n- Có mục cấu hình riêng trong Cài đặt.",
+"markdown": "Chặn nhảy các tab hoặc cửa sổ mới tự mở trong Safari một cách chủ động.\n\nSafariBlocker giúp ngăn chặn các trang web tự động mở tab mới hay popup làm phiền khi duyệt web.\n- Tính năng:\n- Chặn tự động mở tab mới trong Safari.\n- Tuỳ chọn cho phép hoặc chặn popup.\n- Gọn nhẹ, không làm chậm khi duyệt web.\n- Có mục cấu hình riêng trong Cài đặt.",
 "useSpacing": true
 },
 {
