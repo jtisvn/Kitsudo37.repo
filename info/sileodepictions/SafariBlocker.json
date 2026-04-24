@@ -1,7 +1,7 @@
 {
 "minVersion": "0.1",
 "headerImage": "https://k37ios.pages.dev/banner/banner.png",
-"tintColor": "#5777B8",
+"tintColor": "#FF0033",
 "class": "DepictionTabView",
 "tabs": [
 {
