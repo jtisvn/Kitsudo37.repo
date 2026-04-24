@@ -5,205 +5,254 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>K37 Repository</title>
 <style>
+:root {
+    --text-main: #000000;
+    --text-sub: #1a1a1a;
+    --text-link: #007aff;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --inner-bg: rgba(255, 255, 255, 0.15);
+    --border-color: rgba(255, 255, 255, 0.2);
+    --sileo-green: #07A892;
+}
+
 body { 
 font-family: -apple-system, sans-serif; 
-color: white; 
-text-align: center; 
-padding: 40px 15px; 
+color: var(--text-main); 
 margin: 0;
-background-color: #000;
-background-image: radial-gradient(circle at 50% 0%, #1c1c1e 0%, #000 80%);
+padding: 20px;
+background-color: #f0f2f5;
+background-image: url('https://k37ios.pages.dev/banner/banner.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 background-attachment: fixed;
-}
-.icon { width: 100px; height: 100px; border-radius: 25%; margin-bottom: 15px; box-shadow: 0 10px 30px rgba(79, 172, 254, 0.2); }
-h1 { 
-font-size: 32px; 
-font-weight: 900; 
-margin-bottom: 15px; 
-background: linear-gradient(90deg, #4facfe, #00f2fe, #b066fe, #4facfe);
-background-size: 200% auto;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-animation: shine 4s linear infinite;
-text-transform: uppercase;
-letter-spacing: 1px;
-}
-@keyframes shine {
-to { background-position: 200% center; }
-}
-.repo-link-box {
 display: flex;
-justify-content: space-between;
-align-items: center;
-background: rgba(255, 255, 255, 0.05);
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 18px;
-padding: 5px 5px 5px 15px;
-max-width: 280px;
-margin: 0 auto 25px auto;
-}
-.repo-link-box span { font-size: 14px; color: #ccc; }
-.btn { display: block; width: 100%; max-width: 300px; margin: 10px auto; padding: 14px; border-radius: 14px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; }
-.sileo { background: #6042f4; color: white; }
-.zebra { background: #fdfdfd; color: black; }
-.btn:active { transform: scale(0.97); }
-.main-wrapper {
-display: flex;
-flex-wrap: wrap;
 justify-content: center;
-gap: 20px;
-max-width: 780px; 
-margin: 0 auto 30px auto;
+align-items: center;
+min-height: 100vh;
 }
-.flex-item {
-flex: 1 1 320px;
-max-width: 380px;
+
+.main-card {
+background: var(--card-bg); 
+border: 1px solid var(--border-color);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(8px);
+border-radius: 32px;
+width: 100%;
+max-width: 900px;
+padding: 35px 40px;
+box-sizing: border-box;
+box-shadow: 0 20px 50px rgba(0,0,0,0.2);
 }
-.section-title {
-font-size: 12px;
+
+.header {
+display: flex;
+align-items: center;
+gap: 15px;
+margin-bottom: 25px;
+}
+.header img { width: 55px; height: 55px; border-radius: 14px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.header h1 { font-size: 26px; font-weight: 850; margin: 0; color: var(--text-main); text-shadow: 0 1px 2px rgba(255,255,255,0.8); }
+
+.content-grid {
+display: grid;
+grid-template-columns: 1fr 1.2fr;
+gap: 20px 35px;
+align-items: start;
+}
+
+.section-label { 
+font-size: 11px; 
+font-weight: 800; 
+color: var(--text-main); 
+text-transform: uppercase; 
+letter-spacing: 1.5px; 
+margin-bottom: 10px; 
+}
+
+.repo-box { 
+background: var(--inner-bg);
+border: 1.5px solid var(--border-color);
+border-radius: 16px;
+display: flex; 
+justify-content: space-between; 
+align-items: center; 
+padding: 12px 15px; 
+margin-bottom: 20px; 
+}
+.repo-box span { font-size: 14px; color: var(--text-link); font-weight: 800; }
+
+.copy-btn {
+background: rgba(0, 0, 0, 0.08);
+color: var(--text-main);
+border: none;
+padding: 8px 14px;
+border-radius: 10px;
+cursor: pointer;
+font-size: 11px;
 font-weight: 800;
-color: #666;
-text-transform: uppercase;
-letter-spacing: 1.5px;
-margin: 25px 0 12px 0;
+transition: 0.2s;
 }
-.card {
-background: rgba(255, 255, 255, 0.04);
-border: 1px solid rgba(255, 255, 255, 0.08);
+.copy-btn:hover { background: rgba(0, 0, 0, 0.15); }
+
+.btn {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 12px;
+padding: 14px;
+border-radius: 14px;
+text-decoration: none;
+font-weight: 700;
+font-size: 15px;
+margin-bottom: 12px;
+transition: 0.2s;
+background: var(--inner-bg);
+border: 1px solid var(--border-color);
+color: var(--text-main);
+}
+.btn:hover { background: rgba(255, 255, 255, 0.3); border-color: rgba(255, 255, 255, 0.5); }
+.btn:active { transform: scale(0.96); }
+.btn img { width: 24px; height: 24px; border-radius: 6px; }
+
+.sileo-color {
+color: var(--sileo-green);
+font-weight: 800;
+}
+
+.intro-text {
+font-size: 13.5px;
+color: var(--text-sub);
+font-weight: 600;
+line-height: 1.6;
+text-align: left;
+margin-top: 10px;
+}
+
+.info-card, .donate-section {
+background: var(--inner-bg);
+border: 1px solid var(--border-color);
 border-radius: 20px;
 padding: 20px;
-backdrop-filter: blur(10px);
-box-sizing: border-box;
-text-align: left;
-height: 100%;
+margin-bottom: 20px;
 }
-.card p { margin: 8px 0; font-size: 13.5px; color: #bbb; line-height: 1.6; }
-.card p b { color: #fff; }
-.card a { color: #4facfe; text-decoration: none; font-weight: 600; }
-.donate-container {
-display: flex;
+
+.info-card p { font-size: 13px; color: var(--text-sub); font-weight: 600; line-height: 1.6; margin: 8px 0; }
+.info-card b { color: var(--text-main); font-weight: 800; }
+.info-card a { color: #0056b3; text-decoration: none; font-weight: 700; }
+
+.donate-flex { display: flex; align-items: center; gap: 15px; }
+.donate-data { flex: 1; }
+.donate-item { 
+background: rgba(255, 255, 255, 0.3); 
+padding: 10px 14px; 
+border-radius: 12px; 
+margin-bottom: 8px; 
+display: flex; 
+justify-content: space-between; 
 align-items: center;
-justify-content: space-between;
-gap: 10px;
-}
-.donate-info {
-flex: 1;
-}
-.donate-row {
-background: rgba(255, 255, 255, 0.03);
-border: 1px solid rgba(255, 255, 255, 0.05);
-border-radius: 12px;
-padding: 8px 12px;
-margin-bottom: 6px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-font-size: 12.5px;
-}
-.qr-small {
-width: 95px;
-height: 95px;
-border-radius: 12px;
-border: 1px solid rgba(255, 255, 255, 0.1);
-background: white;
-padding: 2px;
-flex-shrink: 0;
-}
-.copy-btn {
-background: rgba(255, 255, 255, 0.1);
-color: #fff;
-border: none;
-padding: 5px 10px;
-border-radius: 8px;
-cursor: pointer;
-font-size: 10px;
-font-weight: bold;
-transition: 0.3s;
-}
-.copy-btn:hover { background: #4facfe; }
-.donate-message {
-background: rgba(0, 0, 0, 0.2);
-border: 1px solid rgba(255, 255, 255, 0.04);
-border-radius: 14px;
-padding: 16px;
-margin-top: 12px;
 font-size: 13px;
-color: #ddd;
-line-height: 1.5;
-text-align: center;
+border: 1px solid rgba(0,0,0,0.05);
+color: var(--text-main);
+font-weight: 700;
 }
-.gradient-text {
-background: linear-gradient(90deg, #4facfe, #00f2fe);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-weight: bold;
+.qr-img { width: 95px; height: 95px; background: white; border-radius: 12px; padding: 2px; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+.footer-text { 
+margin-top: 40px; 
+font-size: 11px; 
+color: var(--text-sub); 
+font-weight: 700;
+display: flex; 
+justify-content: space-between; 
+align-items: center;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+padding-top: 20px;
 }
-.footer { margin-top: 100px; padding-bottom: 40px; font-size: 11px; color: #444; letter-spacing: 1px; }
+
+@media (max-width: 768px) {
+.main-card { padding: 25px; border-radius: 0; }
+.content-grid { grid-template-columns: 1fr; gap: 20px; }
+.header { justify-content: center; }
+.footer-text { flex-direction: column; gap: 12px; text-align: center; }
+}
 </style>
 </head>
 <body>
-<img src="https://k37ios.pages.dev/LogoSileo.png" class="icon" alt="K37 Icon">
-<h1>K37 REPO</h1>
-<div class="repo-link-box">
-<span id="repo-url">https://k37ios.pages.dev</span>
-<button class="copy-btn" onclick="copyToClipboard('repo-url', this)">Sao chép</button>
+
+<div class="main-card">
+    <div class="header">
+        <img src="https://k37ios.pages.dev/LogoSileo.png" alt="Logo">
+        <h1>K37 REPO</h1>
+    </div>
+
+    <div class="content-grid">
+        <div class="left-col">
+            <div class="repo-box">
+                <span id="url-text">https://k37ios.pages.dev</span>
+                <button class="copy-btn" onclick="copy('url-text', this)">Sao chép</button>
+            </div>
+            
+            <a href="sileo://source/https://k37ios.pages.dev" class="btn">
+                <img src="https://k37ios.pages.dev/assets/Siileo.png" alt="Sileo"> Thêm vào <span class="sileo-color">Sileo</span>
+            </a>
+            <a href="zbra://sources/add/https://k37ios.pages.dev" class="btn">
+                <img src="https://jtisvn.github.io/icons/apps/zebra.webp" alt="Zebra"> Thêm vào Zebra
+            </a>
+
+            <div style="margin-top: 20px;">
+                <div class="section-label">Giới thiệu về Repo</div>
+                <div class="intro-text">
+                    K37 Repo là dự án tâm huyết chuyên cung cấp các Tweak được Việt hóa. Đồng thời là nơi chia sẻ những tinh chỉnh hệ thống, giao diện tiện ích được tối ưu hóa độ ổn định cho các thiết bị Jailbreak môi trường Rootless & Roothide hiện nay.
+                </div>
+            </div>
+        </div>
+
+        <div class="right-col">
+            <div class="section-label">Thông tin</div>
+            <div class="info-card">
+                <p><b>Phát triển bởi:</b> Kitsudo</p>
+                <p><b>Tình trạng:</b> Đang cập nhật tweak cho iOS 15 - 16.</p>
+                <p><b>Liên kết:</b> <a href="https://t.me/Kitsudo">Telegram</a> • <a href="https://www.facebook.com/share/1JMRXio8Df/">Facebook</a></p>
+                <p><b>Nhóm hỗ trợ:</b> <a href="https://t.me/jtisvietnamrepo">K37-JTISVN</a></p>
+            </div>
+
+            <div class="section-label">Ủng hộ</div>
+            <div class="donate-section">
+                <div class="donate-flex">
+                    <div class="donate-data">
+                        <div class="donate-item"><span>Ngân hàng: <b>ACB</b></span></div>
+                        <div class="donate-item" style="font-size: 11px;"><b>NGUYEN TRUNG HIEU</b></div>
+                        <div class="donate-item">
+                            <span>STK: <b id="stk">20219691</b></span>
+                            <button class="copy-btn" style="background: rgba(0,0,0,0.1);" onclick="copy('stk', this)">📋</button>
+                        </div>
+                    </div>
+                    <img src="https://jtisvn.github.io/icons/apps/qr.webp" class="qr-img" alt="QR">
+                </div>
+                <p style="text-align: center; font-size: 11px; color: var(--text-sub); font-weight: 700; margin-top: 15px;">
+                    Sự ủng hộ của bạn giúp <b>K37 Repo</b> tiếp tục phát triển. ❤️
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-text">
+        <span>© K37 Repo 2026 | All rights reserved</span>
+        <span>Dedicated to iOS Customization </span>
+    </div>
 </div>
-<a href="sileo://source/https://k37ios.pages.dev" class="btn sileo">Thêm vào Sileo</a>
-<a href="zbra://sources/add/https://k37ios.pages.dev" class="btn zebra">Thêm vào Zebra</a>
-<div class="main-wrapper">
-<div class="flex-item">
-<div class="section-title">THÔNG TIN</div>
-<div class="card">
-<p><b>Phát triển bởi:</b> Kitsudo</p>
-<p style="color: #aaa; font-size: 13px;">
-K37 Repo là dự án tâm huyết chuyên cung cấp các Tweak được Việt hóa. Đồng thời là nơi chia sẻ những tinh chỉnh hệ thống, giao diện tiện ích được tối ưu hóa độ ổn định cho các thiết bị Jailbreak môi trường Rootless & Roothide hiện nay.
-</p>
-<p><b>Tình trạng:</b> Đang cập nhật tweak cho iOS 15 - 16.</p>
-<p style="margin-top: 15px;"><b>Liên hệ:</b> 
-<a href="https://t.me/Kitsudo">Telegram</a> 
-<span style="color: #444; margin: 0 4px;">•</span> 
-<a href="https://www.facebook.com/share/1JMRXio8Df/?mibextid=wwXIfr" style="color: #1877F2;">Facebook</a>
-</p>
-<p style="margin-top: 8px;"><b>Nhóm hỗ trợ:</b> 
-<a href="https://t.me/jtisvietnamrepo">K37-JTISVN</a>
-</p>
-</div>
-</div>
-<div class="flex-item">
-<div class="section-title">ỦNG HỘ</div>
-<div class="card">
-<div class="donate-container">
-<div class="donate-info">
-<div class="donate-row">
-<span>Ngân hàng: <b>ACB</b></span>
-</div>
-<div class="donate-row">
-<span>Tên: <b>NGUYEN TRUNG HIEU</b></span>
-</div>
-<div class="donate-row">
-<span>STK: <b>20219691</b></span>
-<button class="copy-btn" onclick="copyToClipboard('acb-account', this)">📋</button>
-<span id="acb-account" style="display:none;">20219691</span>
-</div>
-</div>
-<img src="https://jtisvn.github.io/icons/apps/qr.webp" class="qr-small" alt="QR Donate">
-</div>
-<div class="donate-message">
-Sự ủng hộ của bạn là động lực to lớn để <span class="gradient-text">K37 Repo</span> tiếp tục phát triển. Xin chân thành cảm ơn! ❤️
-</div>
-</div>
-</div>
-</div>
-<div class="footer">© 2026 K37 REPO</div>
+
 <script>
-function copyToClipboard(elementId, btnElement) {
-var textToCopy = document.getElementById(elementId).innerText;
-var originalText = btnElement.innerText;
-navigator.clipboard.writeText(textToCopy).then(function() {
-btnElement.innerText = "Đã sao chép!";
-setTimeout(function() { btnElement.innerText = originalText; }, 2000);
-});
+function copy(id, btn) {
+    const text = document.getElementById(id).innerText;
+    const oldText = btn.innerText;
+    navigator.clipboard.writeText(text).then(() => {
+        btn.innerText = "Đã sao chép!";
+        setTimeout(() => btn.innerText = oldText, 2000);
+    });
 }
 </script>
+
 </body>
 </html>
