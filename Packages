@@ -324,6 +324,26 @@ Sileodepiction: https://jtisvn.github.io/sileodepictions/NexusBoard.json
 
 Package: com.kitsudo.tiktokautoswipe
 Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Kitsudo
+Installed-Size: 76
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate | libhooker | substitute
+Filename: ./debs/com.kitsudo.tiktokautoswipe_1.0.0_iphoneos-arm64e.deb
+Size: 5488
+MD5sum: 198dce6598561ad34c8c426cb916a43a
+SHA1: 134612a540db0322349afd5988f119e4995b1399
+SHA256: 27ca83d45fb5708375ecdcf5f5e0312d37c79d80d61ef97b62661dd426827990
+Section: Tweaks
+Description: Auto swipe to next TikTok video when current video ends
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/TikTokAutoSwipe.html
+Icon: https://k37ios.pages.dev/assets/TikTokAutoSwipe.png
+Name: TikTok AutoSwipe
+Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/TikTokAutoSwipe.json
+
+Package: com.kitsudo.tiktokautoswipe
+Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: Kitsudo
 Installed-Size: 76
