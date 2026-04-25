@@ -322,6 +322,25 @@ Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
 Name: NexusBoard
 Sileodepiction: https://jtisvn.github.io/sileodepictions/NexusBoard.json
 
+Package: com.kitsudo.tiktokautoswipe
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Kitsudo
+Installed-Size: 76
+Depends: mobilesubstrate | libhooker | substitute
+Filename: ./debs/com.kitsudo.tiktokautoswipe_1.0.0_iphoneos-arm64.deb
+Size: 5344
+MD5sum: 502fc8a9d73bdbc17385f4302ed73240
+SHA1: 329acc101f9dac55ef9addd4f4a224dfd81b5655
+SHA256: 2f079c9bbd448733d743dcee67c6dafda834a7fb804e6564a839dfcb2582e159
+Section: Tweaks
+Description: Auto swipe to next TikTok video when current video ends
+Author: Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/TikTokAutoSwipe.html
+Icon: https://k37ios.pages.dev/assets/TikTokAutoSwipe.png
+Name: TikTok AutoSwipe
+Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/TikTokAutoSwipe.json
+
 Package: com.squidforce.copyvault
 Version: 1.9.0
 Architecture: iphoneos-arm64e
