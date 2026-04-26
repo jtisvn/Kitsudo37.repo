@@ -203,6 +203,9 @@
 "class":"DepictionMarkdownView"
 },
 {
+"class":"DepictionSeparatorView"
+},
+{
 "markdown":"### Phiên bản 3.2\n- Thêm hiển thị menu trong bảng chia sẻ để tuỳ chọn giữa Sao chép hoặc Di chuyển khi thêm ảnh vào một album.",
 "useSpacing":true,
 "class":"DepictionMarkdownView"
