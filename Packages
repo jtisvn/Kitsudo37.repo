@@ -278,40 +278,19 @@ Name: SortingSwipe
 Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/SortingSwipe.json
 
 Package: com.kitsudo.nexusboard
-Version: 3.3k
+Version: 3.5
 Architecture: iphoneos-arm64
 Maintainer: JTISVN Repo
-Installed-Size: 2384
+Installed-Size: 2532
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
-Filename: ./debs/com.kitsudo.nexusboard_3.3k_iphoneos-arm64.deb
-Size: 557284
-MD5sum: 11a777747eabed1b9887c803872ce050
-SHA1: 7e23370a67499dd618d92419dc6fdbc374b7ec79
-SHA256: 7f4f1fb20c578d92e264333bdbe27c213614099562f5d2aa19c371018052a425
+Filename: ./debs/com.kitsudo.nexusboard_3.5_iphoneos-arm64.deb
+Size: 588172
+MD5sum: b99fa4f308c84c92caa057489caad5f8
+SHA1: 1f9d93b3b997edd2fab720c25b4613a847b338e6
+SHA256: 3308c1d3ef0fc275c1d37ec1c0974c4d687472d4676c1876ae2ac66eb88b8717
 Section: Tweaks
-Description: Customize SpringBoard with many useful features for iOS.
-  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
-Author: Kitsudo
-Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
-Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
-Name: NexusBoard
-Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
-
-Package: com.kitsudo.nexusboard
-Version: 3.3k
-Architecture: iphoneos-arm64e
-Maintainer: JTISVN Repo
-Installed-Size: 2384
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
-Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
-Filename: ./debs/com.kitsudo.nexusboard_3.3k_iphoneos-arm64e.deb
-Size: 558372
-MD5sum: f1dd42d9b2e2ad5f51441f1053bba915
-SHA1: 4bbf50b7eb6ce4916822c1b82ae3e20dd4e60297
-SHA256: f12712e9a602c1466763c26d442e9d7bb9c69deb98bf7d85568a68251ec37add
-Section: Tweaks
+Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
   	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
 Author: Kitsudo
