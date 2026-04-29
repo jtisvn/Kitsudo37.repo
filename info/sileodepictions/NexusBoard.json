@@ -127,7 +127,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "28/4/2026",
+"text": "29/4/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -145,7 +145,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "3.5",
+"text": "3.9",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -197,6 +197,14 @@
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
+{
+"markdown":"### Phiên bản 3.6\n- Thêm tuỳ chỉnh tiêu đề Tập trung trên Trung tâm điều khiển\n- Thêm chạm để mở rộng mô đun\n- Sửa đổi chức năng tắt hoàn toàn Wifi và Bluetooth tách riêng.",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSeparatorView"
+},
 {
 "markdown":"### Phiên bản 3.5\n- Thêm tuỳ chọn ảnh nền sáng tối trên Trung tâm điều khiển\n\n- Thêm tuỳ chỉnh sắp xếp mô đun kết nố\n- Thêm tuỳ chỉnh bố cục mô đun kết nối\n- Thêm xoa ngang thanh trượt Độ sáng & Âm lượng.",
 "useSpacing":true,
