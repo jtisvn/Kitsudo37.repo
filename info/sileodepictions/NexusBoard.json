@@ -145,7 +145,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "3.9",
+"text": "3.7",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -197,6 +197,14 @@
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
+{
+"markdown":"### Phiên bản 3.7\n- Thêm đổ bóng biểu tượng thanh Dock\n- Thêm định dạng Thứ, ngày/tháng\n- Sửa đổi thanh trượt kéo lịch âm dương lên trên đồng hồ thanh trạng thái\n- Sửa lỗi bị tắt máy khi chạm 2 lần nhập mặt khẩu trên màn hình khoá.",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSeparatorView"
+},
 {
 "markdown":"### Phiên bản 3.6\n- Thêm tuỳ chỉnh tiêu đề Tập trung trên Trung tâm điều khiển\n- Thêm chạm để mở rộng mô đun\n- Sửa đổi chức năng tắt hoàn toàn Wifi và Bluetooth tách riêng.",
 "useSpacing":true,
