@@ -198,7 +198,7 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
-"markdown":"### Phiên bản 3.8\n- Thêm ẩn thông báo cập nhật iOS trong trang cài đặt\n- Thêm ản cảnh báo bảo trì pin thong mục Tình trạng pin & sạc.",
+"markdown":"### Phiên bản 3.8\n- Thêm ẩn thông báo cập nhật iOS trong trang cài đặt\n- Thêm ẩn cảnh báo bảo trì pin thong mục Tình trạng pin & sạc.",
 "useSpacing":true,
 "class":"DepictionMarkdownView"
 },
