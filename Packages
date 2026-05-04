@@ -278,40 +278,17 @@ Name: SortingSwipe
 Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/SortingSwipe.json
 
 Package: com.kitsudo.nexusboard
-Version: 3.8
-Architecture: iphoneos-arm64e
-Maintainer: JTISVN Repo
-Installed-Size: 2608
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0),oldabi
-Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
-Filename: ./debs/com.kitsudo.nexusboard_3.8_iphoneos-arm64e.deb
-Size: 596936
-MD5sum: 5d9a09a4a71e0efdce827cbbee1708a0
-SHA1: 14685888d5d623ecf73d98ec5647490260dd25ba
-SHA256: 1bde5e6734b1fe54b23143c8c87851ef633c625f8cfc007aa35f8309bec994c2
-Section: Tweaks
-Homepage: https://jtisvn.github.io/
-Description: Customize SpringBoard with many useful features for iOS.
-  	 *  Tùy chỉnh SpringBoard với nhiều tính năng hữu ích cho iOS.
-Author: Kitsudo
-Depiction: https://jtisvn.github.io/depictions/NexusBoard.html
-Icon: https://jtisvn.github.io/sectionIcons/NexusBoard.png
-Name: NexusBoard
-Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
-
-Package: com.kitsudo.nexusboard
-Version: 3.8
+Version: 3.9
 Architecture: iphoneos-arm64
 Maintainer: JTISVN Repo
-Installed-Size: 2608
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
+Installed-Size: 2644
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2
-Filename: ./debs/com.kitsudo.nexusboard_3.8_iphoneos-arm64.deb
-Size: 596680
-MD5sum: 699e69ca6b86938bc26ce979448181f3
-SHA1: d16478eff0c94e8fe0dd1c9cce68ddae419ca3cc
-SHA256: b2edcb97282eae2dd49b13373fea6566e87eb09049e0e3ef092a3b7841706309
+Filename: ./debs/com.kitsudo.nexusboard_3.9_iphoneos-arm64.deb
+Size: 611860
+MD5sum: 3a4a1432890b53d9ff0991d8a43ccef3
+SHA1: ce116d45d9e2c5f9577cd05d8a6cd61a9dddda34
+SHA256: e3a3a992e9bb6a70f4d829b7b80bffebab3d3d7e6783c5e3654f468530d5d208
 Section: Tweaks
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
