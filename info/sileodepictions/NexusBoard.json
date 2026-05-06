@@ -198,7 +198,7 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
-"markdown":"### Phiên bản 4.0\n- Thêm tuỳ chỉnh vị trí dự báo thời gian sạc\n- Sửa đổi tuỳ chỉnh độ trong suốt các mục\n- Sửa lỗi nền cài đặt xung đột mất màu với 1 số tweak.",
+"markdown":"### Phiên bản 4.0\n- Thêm tuỳ chỉnh tỉ lệ biểu tượng trên màn hình chính\n- Thêm tuỳ chỉnh vị trí dự báo thời gian sạc\n- Sửa đổi tuỳ chỉnh độ trong suốt các mục\n- Sửa lỗi nền cài đặt xung đột mất màu với 1 số tweak.",
 "useSpacing":true,
 "class":"DepictionMarkdownView"
 },
