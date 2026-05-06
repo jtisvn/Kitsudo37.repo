@@ -145,7 +145,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "3.9",
+"text": "4.0",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -197,6 +197,14 @@
 {
 "tabname":"Nhật ký thay đổi",
 "views":[
+{
+"markdown":"### Phiên bản 4.0\n- Thêm tuỳ chỉnh vị trí dự báo thời gian sạc\n- Sửa đổi tuỳ chỉnh độ trong suốt các mục\n- Sửa lỗi nền cài đặt xung đột mất màu với 1 số tweak.",
+"useSpacing":true,
+"class":"DepictionMarkdownView"
+},
+{
+"class":"DepictionSeparatorView"
+},
 {
 "markdown":"### Phiên bản 3.9\n- Thêm tuỳ chỉnh độ mờ nền & trong suốt các mục trong cài đặt\n- Thêm tuỳ chọn hình nền sáng tối trong cài đặt\n- Thêm tuỳ chọn ảnh cho mục trên nhóm iCloud trong cài đặt\n- Thêm nhóm sắp xếp cài đặt 3 thành phần riêng.",
 "useSpacing":true,
