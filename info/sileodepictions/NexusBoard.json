@@ -127,7 +127,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "5/5/2026",
+"text": "7/5/2026",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -145,7 +145,7 @@
 },
 {
 "class": "DepictionLabelView",
-"text": "4.0",
+"text": "4.1",
 "fontWeight": "semibold",
 "fontSize": 16,
 "usePadding": false
@@ -198,7 +198,7 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
-"markdown":"### Phiên bản 4.1\n- Thêm video nền cho Cài đặt.",
+"markdown":"### Phiên bản 4.1\n- Them tuỳ chọn tắt mở khoá tự động:\n- Tắt khi có thông báo\n- Tắt khi đang sạc\n- Tắt khi đang phát nhạc\n- Tắt khi đang bật đèn pin\n- Thêm video nền động cho Cài đặt.",
 "useSpacing":true,
 "class":"DepictionMarkdownView"
 },
