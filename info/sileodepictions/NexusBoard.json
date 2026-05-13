@@ -198,7 +198,7 @@
 "tabname":"Nhật ký thay đổi",
 "views":[
 {
-"markdown":"### Phiên bản 4.4\n-Thẻm hiện xác nhận cuộc gọi từ mục yêu thích và mục gần đây\n- Thêm rung 1 lần khi kết nối và kết thúc cuộc gọi.",
+"markdown":"### Phiên bản 4.4\n- Thẻm hiện xác nhận gọi từ mục yêu thích & gần đây\n- Thêm rung 1 lần khi kết nối và kết thúc cuộc gọi.",
 "useSpacing":true,
 "class":"DepictionMarkdownView"
 },
